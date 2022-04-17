@@ -3,11 +3,9 @@
 """
 Created on Fri Dec  3 18:50:12 2021
 
-@author: Torben Poguntke
-@e-mail: torben.poguntke@iu-study.org
+@author: Torben
 @topic: NFT discrod whitelisting discord extension
 
-This is the main file for executing the program
 """
 
 
@@ -30,7 +28,6 @@ import requests
 import json
 import queue
 
-logger = logging.getLogger(__name__)
 handler = RotatingFileHandler(config.logfile, mode='a', maxBytes=5*1024*1024, backupCount=2,delay=0,encoding=None)
 formatter = logging.Formatter('%(asctime)s %(message)s')
 handler.setFormatter(formatter)

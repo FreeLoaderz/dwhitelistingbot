@@ -1,1 +1,1 @@
-# evil-bot
+# Draft Discord Whitelisting Bot
